@@ -7,7 +7,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/lge/p999/p999.mk)
 
-PRODUCT_NAME := cm_p999
+PRODUCT_NAME := aokp_p999
 
 # Release name and versioning
 PRODUCT_RELEASE_NAME := G2x
