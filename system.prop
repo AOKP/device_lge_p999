@@ -10,6 +10,10 @@ ro.sf.lcd_density=240
 
 mobiledata.interfaces=gannet0,vsnet0,vsnet1,vsnet2,vsnet3
 
+#Ril fix
+ro.cm.device=p999
+ro.cm.version=9.0.0-aokp
+
 # hold precise GC data, and use SMP
 dalvik.vm.dexopt-flags=m=y,u=n
 
