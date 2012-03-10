@@ -1,8 +1,8 @@
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/aokp/config/gsm.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/aokp/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/p999/p999.mk)
