@@ -24,3 +24,10 @@ ro.vold.switchablepair=/mnt/sdcard,/mnt/emmc
 # GSM, WCDMA preferred
 # This appears to be causing "Unknown" network type
 #ro.telephony.default_network=0
+
+# hardware info
+ro.device.cpu=1.0 GHz dual-core Nvidia Tegra 250 AP20H
+ro.device.gpu=Nvidia Tegra 250 AP20H
+ro.device.rear_cam=8 MP
+ro.device.front_cam=1.3 MP
+ro.device.screen_res=400x800
